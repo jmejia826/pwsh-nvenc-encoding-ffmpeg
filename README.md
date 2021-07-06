@@ -27,6 +27,7 @@ This will convert everything in /media/multimedia/movies/ to 10bit mkv (mkv is d
  
 # Other Examples from my actual server  
 pwsh nvenc_hevc_conversion.ps1 -10bit -SonarrRename -TempPath /media/nvme-500g-01/tmp -Path /media/multimedia/anime/ -Filter W*
+  
 pwsh nvenc_hevc_conversion.ps1 -10bit -SonarrRename -TempPath /media/nvme-500g-01/tmp -Path /media/multimedia/television/ -Filter How*
   
 # Is a TempPath required?
