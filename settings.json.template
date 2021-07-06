@@ -1,0 +1,12 @@
+{
+  "apps": {
+    "sonarr": {
+      "host": "http://ip:port",
+      "apikey": ""
+    },
+    "radarr": {
+      "host": "http://ip:port",
+      "apikey": ""
+    }
+  }
+}
