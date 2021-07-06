@@ -14,7 +14,7 @@ There are a few defaults, be sure to check the PowerShell's parameter's list ot 
 
 A few assumptions:
 - Powershell v7 is installed (at least 7.1)
-- Nvidia graphics card is installed and its drivers (can confirm by typing nvidia-smi into command promp / terminal)
+- Nvidia graphics card is installed and its drivers (can confirm by typing nvidia-smi into command prompt / terminal)
 
 # How to run it
 Open command prompt or terminal and type in 
