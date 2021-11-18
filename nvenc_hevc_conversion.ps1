@@ -663,6 +663,7 @@ $AllFiles | ForEach-Object -ThrottleLimit $ConcurrentEncodes -Parallel {
                     $app = $jsonSettings.apps."$($appName.ToLower())"
                     $Header = @{}
                     $Header.Add("X-Api-Key", $app.apikey)
+                    $Header.Add("Content-Type", "application/json") # Radarr v3 latest build as of 2021-11-01 requires this
 
                     # Build the command
                     Write-Output "$($using:ANSI_Red)$appName$($using:ANSI_DarkGray):`tRefreshing $($using:ANSI_Magenta)$($arrMedia.title)$($using:ANSI_Reset)"
